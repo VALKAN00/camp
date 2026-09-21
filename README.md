@@ -1,16 +1,81 @@
-# React + Vite
+# CAMP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern camping landing page built with React and Vite, designed to showcase the experience, rules, safety information, and contact details for a camping brand.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://camp-two-nu.vercel.app/
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a single-page experience with smooth motion effects, a hero section, navigation, rules overview, safety messaging, and a contact section. It uses GSAP-powered animations and a responsive layout for desktop and mobile screens.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Animated hero section with immersive visual storytelling
+- Sticky navigation header with anchor links
+- Rules and safety sections for camping guidance
+- Contact section for inquiries and engagement
+- Responsive design for multiple screen sizes
+- Smooth scrolling interactions using GSAP
+
+## Tech Stack
+
+- React
+- Vite
+- GSAP
+- Tailwind CSS
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local preview in your browser.
+
+## Production Build
+
+To build the app for production:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+This project is deployed on Vercel:
+
+- Live URL: https://camp-two-nu.vercel.app/
+
+## Project Structure
+
+```bash
+my-app/
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── eslint.config.js
+```
+
+## License
+
+This project is for demo and portfolio use.
